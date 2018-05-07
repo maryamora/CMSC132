@@ -1,0 +1,52 @@
+CMSC 132 Lab Exercise 1
+
+Make a program that will read in and accept the different files:
+
+a. text file
+b. audio file
+c. video file
+
+Retrieve the running time as well as the CPU time used in reading in the different files. Compare their
+respective running time and CPU time when executed on a different machine.
+
+After you have made the exercise, answer the following questions:
+
+1. Does file size make a significant difference in determining CPU time? How so?
+2. What do you think are the computer resources (software & hardware) that are being utilized when
+executing the program you have made?
+3. Was there a significant difference in running time and CPU time when the program was executed
+on a different machine?
+4. What are the factors that affects the CPU time?
+
+DETAILS:
+
+Text File:
+Running Time: 202980146
+CPU Time: 0
+
+
+MP3 File:
+
+Running Time: 278840999
+CPU Time: 0
+
+Running Time: 256716424
+CPU Time: 0
+
+Running Time: 59033637972
+CPU Time: 968750000
+
+Running Time: 58666456352
+CPU Time: 953125000
+
+MP4 File:
+Running Time: 62395951696
+CPU Time: 203125000
+
+MainClass File:
+
+
+1. Yes, the file size makes a significant difference in determining CPU time. The more bytes the CPU is 
+processing, then the more time it would take to read each set of bytes.
+2. IDE, processor
+3. 
